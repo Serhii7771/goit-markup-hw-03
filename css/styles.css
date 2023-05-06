@@ -327,7 +327,6 @@ body {
 }
 
 .portfolio-menu-images-li {
-  display: contents;
   width: calc((100% - 48px) / 3);
 }
 
