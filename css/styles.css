@@ -151,6 +151,10 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  position: absolute;
+  height: 120px;
+  left: 472px;
+  top: 260px;
 }
 
 .section-one-button {
@@ -380,4 +384,8 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.display {
+  display: inline-block;
 }
