@@ -38,9 +38,14 @@ img {
 
 .page-header {
   background: #ffffff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-nav {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -51,12 +56,21 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .menu {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-address {
+  display: flex;
+  gap: 40px;
 }
 
 .menu-item {
+  padding: 24px 0;
 }
 
 .menu-link {
@@ -91,6 +105,7 @@ img {
 
 .adress {
   font-style: normal;
+  display: flex;
 }
 
 .contact-tel {
@@ -113,6 +128,12 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--accent-color);
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* sections */
@@ -207,6 +228,16 @@ body {
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-container {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-container-p {
+  max-width: 264px;
 }
 
 .logo-footer {
