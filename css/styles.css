@@ -312,8 +312,8 @@ body {
   border-radius: 4px;
 }
 
-.section-button-li:hover,
-.section-button-li:focus {
+.portfolio-button-li:hover,
+.portfolio-button-li:focus {
   border: 1px solid transparent;
 }
 
