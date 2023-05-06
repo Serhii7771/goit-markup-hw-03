@@ -79,6 +79,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -131,6 +132,7 @@ body {
 }
 
 .container {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
