@@ -105,6 +105,7 @@ img {
 .adress {
   font-style: normal;
   display: flex;
+  align-items: center;
 }
 
 .contact-tel {
