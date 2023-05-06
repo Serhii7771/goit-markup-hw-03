@@ -313,11 +313,6 @@ body {
   border-radius: 4px;
 }
 
-.portfolio-button-li:hover,
-.portfolio-button-li:focus {
-  border: 1px solid transparent;
-}
-
 .portfolio-menu-images {
   display: flex;
   flex-wrap: wrap;
@@ -326,7 +321,7 @@ body {
 }
 
 .portfolio-menu-images-li {
-  width: calc(100% - 48px) / 3;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-menu-images-title {
