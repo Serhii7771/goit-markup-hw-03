@@ -3,6 +3,7 @@
   --section-two-title-color: #2e2f42;
   --color-main-p: #2e2f42;
   --accent-color-p: #434455;
+  --section-one-button: #4d5ae5;
 }
 
 .list {
@@ -11,10 +12,6 @@
 
 .link {
   text-decoration: none;
-}
-
-button {
-  cursor: pointer;
 }
 
 h1,
@@ -141,6 +138,7 @@ body {
 /* sections */
 .section-one {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .section-one-title {
@@ -149,16 +147,23 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 
 .section-one-button {
-  background-color: #4d5ae5;
+  background-color: var(--section-one-button);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .section-one-button:hover,
@@ -184,6 +189,12 @@ body {
 /* title-two */
 
 .section-two {
+  padding: 120px 0;
+}
+
+.section-two-menu {
+  display: flex;
+  gap: 24px;
 }
 
 .about {
@@ -206,9 +217,37 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--section-two-title-color);
+  margin-bottom: 8px;
 }
 
-/* section thry */
+.section-two-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.section-two-li {
+  width: calc(100%-72px) / 4;
+}
+
+/* section three */
+
+.section-three {
+  padding-bottom: 120px;
+}
+
+.section-three-h2 {
+  margin-bottom: 72px;
+}
+
+.section-three-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.section-three-li {
+  width: calc(100%-48px) / 3;
+}
+
 .section-thry-title {
   font-size: 36px;
   line-height: 1.11;
@@ -222,10 +261,35 @@ body {
 
 .section-four {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.section-four-h2 {
+  margin-bottom: 72px;
+}
+
+.section-four-name {
+  padding: 32px 16px;
+}
+
+.section-four-h3 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.section-four-p {
+  text-align: center;
+}
+
+.section-four-menu {
+  display: flex;
+  gap: 24px;
 }
 
 .section-four-li {
   background-color: #ffffff;
+  width: calc(100%-72px) / 4;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .footer {
