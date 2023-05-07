@@ -786,6 +786,10 @@ body {
   color: #f4f4fd;
 }
 
+.display {
+  display: inline-block;
+}
+
 
 .visually-hidden {
   position: absolute;
