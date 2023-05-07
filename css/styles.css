@@ -32,6 +32,11 @@ ol {
 img {
   display: block;
 }
+/* Header */
+
+.display-header {
+  display: flex;
+}
 
 .page-header {
   background: #ffffff;
