@@ -135,8 +135,6 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-}
-.display {
   display: flex;
 }
 
@@ -388,6 +386,6 @@ body {
   color: #f4f4fd;
 }
 
-.display-footer {
+.display {
   display: inline-block;
 }
