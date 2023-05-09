@@ -17,7 +17,8 @@
 h1,
 h2,
 h3,
-h4.p {
+h4,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -143,6 +144,20 @@ body {
 }
 
 /* sections */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .section-one {
   background: #2e2f42;
   padding: 188px 0;
@@ -344,7 +359,6 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 /* Footer */
@@ -394,8 +408,4 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-
-.display {
-  display: inline-block;
 }
